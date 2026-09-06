@@ -1,0 +1,13 @@
+{
+  "name": "codewars-solutions",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Codewars solutions organized by kyu and language",
+  "scripts": {
+    "check": "find src/tasks -name '*.js' -print0 | xargs -0 -n1 node --check",
+    "test": "npm run check"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
